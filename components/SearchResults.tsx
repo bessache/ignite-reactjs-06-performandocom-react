@@ -16,8 +16,6 @@ interface SearchResultsProps {
 
 export function SearchResults({totalPrice, results, onAddToWishlist}:SearchResultsProps) {
 
-    
-
     return (
         <div>
             <h2>{totalPrice}</h2>
