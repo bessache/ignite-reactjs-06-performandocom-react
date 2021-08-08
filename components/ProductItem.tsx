@@ -30,7 +30,7 @@ function ProductItemComponent ({product, onAddToWishlist}:ProductItemProps){
             {product.title} - <strong>{product.priceFormatted}</strong>
             
             <button onClick={()=>setIsAddingToWishlist(true)}>Adicionar aos favoritos</button>
-            
+
             {
                 isAddingToWishlist && (
                 <AddProductToWishlist
